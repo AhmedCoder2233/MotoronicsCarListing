@@ -916,13 +916,6 @@ export default function DashboardPage() {
                 <Plus className="h-5 w-5" />
                 Sell New Car
               </Link>
-              <button
-                onClick={() => loadDashboardData()}
-                className="flex items-center justify-center gap-2 px-6 py-3 bg-red-800 text-white rounded-lg font-semibold hover:bg-red-900 transition-colors"
-              >
-                <Check className="h-5 w-5" />
-                Refresh Dashboard
-              </button>
             </div>
           </div>
         </div>
@@ -1355,4 +1348,5 @@ export default function DashboardPage() {
       </div>
     </div>
   );
+
 }
