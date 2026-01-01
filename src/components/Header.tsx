@@ -128,13 +128,6 @@ export default function Header() {
 
           {/* Auth & Search */}
           <div className="hidden lg:flex items-center space-x-4">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="p-2 hover:bg-gray-100 rounded-full transition-colors"
-            >
-              <Search className="h-5 w-5 text-gray-600" />
-            </motion.button>
             
             {loading ? (
               <div className="flex items-center space-x-3">
