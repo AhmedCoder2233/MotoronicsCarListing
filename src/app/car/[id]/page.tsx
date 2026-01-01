@@ -676,14 +676,6 @@ export default function CarDetailPage() {
                   </div>
                 </div>
               </div>
-
-              {/* Report/Flag Button */}
-              <div className="mt-6 pt-6 border-t">
-                <button className="w-full py-2 text-sm text-gray-500 hover:text-red-600 flex items-center justify-center">
-                  <Flag className="h-4 w-4 mr-2" />
-                  Report this listing
-                </button>
-              </div>
             </div>
 
             {/* Similar Cars */}
@@ -732,4 +724,5 @@ export default function CarDetailPage() {
       </div>
     </div>
   );
+
 }
