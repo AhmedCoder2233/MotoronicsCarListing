@@ -116,7 +116,7 @@ export default function CTASection() {
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 to-red-500 rounded-2xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity" />
               <Link
-                href="/signup"
+                href="/dashboard"
                 className="relative inline-flex items-center justify-center gap-3 px-10 py-5 text-lg font-bold text-white bg-gradient-to-r from-red-700 to-red-800 rounded-2xl transition-all duration-300 shadow-2xl hover:shadow-3xl group-hover:from-red-800 group-hover:to-red-900 border border-white/20 backdrop-blur-sm"
               >
                 <span>Start Your Journey</span>
@@ -129,7 +129,7 @@ export default function CTASection() {
               whileTap={{ scale: 0.95 }}
             >
               <Link
-                href="#listings"
+                href="/buy"
                 className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-transparent border-2 border-white/40 hover:border-white hover:bg-white/10 rounded-2xl transition-all duration-300 backdrop-blur-sm hover:shadow-2xl"
               >
                 Browse Premium Listings
