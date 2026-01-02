@@ -261,7 +261,7 @@ export default function SellPage() {
 
       if (updateError) throw updateError;
 
-      showSuccess('Car listed successfully! It will appear in search results after verification.');
+      showSuccess('Car listed successfully! Redirecting you to the dashboard...');
       setTimeout(() => {
         router.push('/dashboard');
       }, 1500);
@@ -776,4 +776,5 @@ export default function SellPage() {
       </div>
     </div>
   );
+
 }
